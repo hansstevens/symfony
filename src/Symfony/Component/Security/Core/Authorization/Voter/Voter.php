@@ -65,5 +65,5 @@ abstract class Voter implements VoterInterface
      *
      * @return bool
      */
-    abstract protected function voteOnAttribute($attribute, $subject, TokenInterface $token);
+    abstract protected function voteOnAttributeHackday($attribute, $subject, TokenInterface $token);
 }
